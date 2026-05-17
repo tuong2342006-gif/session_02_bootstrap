@@ -16,6 +16,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="./css/custom-theme.css">
   <link rel="stylesheet" href="./css/blog.css">
+  <link rel="stylesheet" href="./css/comments.css">
 
 </head>
 
@@ -58,7 +59,7 @@
           </div>
 
           <!-- CARD 2 -->
-          <div class="card mb-4">
+          <div class="card mb-5">
 
             <img
               src="./images/project-2.jpg"
@@ -81,6 +82,69 @@
               </button>
 
             </div>
+
+          </div>
+
+          <!-- COMMENT FORM -->
+          <div class="card p-4">
+
+            <h3 class="mb-4">
+              Leave a Comment
+            </h3>
+
+            <form>
+
+              <!-- NAME -->
+              <div class="mb-3">
+
+                <label class="form-label">
+                  Name
+                </label>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your name"
+                >
+
+              </div>
+
+              <!-- EMAIL -->
+              <div class="mb-3">
+
+                <label class="form-label">
+                  Email
+                </label>
+
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                >
+
+              </div>
+
+              <!-- COMMENT -->
+              <div class="mb-3">
+
+                <label class="form-label">
+                  Comment
+                </label>
+
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  placeholder="Write your comment"
+                ></textarea>
+
+              </div>
+
+              <!-- BUTTON -->
+              <button class="btn btn-success">
+                Submit Comment
+              </button>
+
+            </form>
 
           </div>
 
