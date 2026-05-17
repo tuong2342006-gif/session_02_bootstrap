@@ -1,26 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background: #f5f3ed;
+  font-family: "Inter", sans-serif;
 }
-:root {
-  --bs-primary: #2f7d65;
+
+.hero-title {
+  font-family: "Playfair Display", serif;
 }
-.custom-space {
-  padding: 120px 0;
+
+.logo-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #2f5f2d;
+}
+
+.project-card {
+  transition: 0.4s;
+  border-radius: 18px;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
 }
 
 .card {
-  border-radius: 20px;
-}
-body {
-  background: #f5f3ed;
+  border-radius: 18px;
 }
 
-.card {
-  border: none;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-}
+@media (max-width: 768px) {
 
-.btn-success {
-  background: #2f7d65;
-  border: none;
+  .display-1 {
+    font-size: 3.5rem;
+  }
+
 }
