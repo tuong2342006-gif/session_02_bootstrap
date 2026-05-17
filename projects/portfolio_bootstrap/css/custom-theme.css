@@ -4,3 +4,10 @@ body {
 :root {
   --bs-primary: #2f7d65;
 }
+.custom-space {
+  padding: 120px 0;
+}
+
+.card {
+  border-radius: 20px;
+}
