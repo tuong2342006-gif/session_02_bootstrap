@@ -11,3 +11,16 @@ body {
 .card {
   border-radius: 20px;
 }
+body {
+  background: #f5f3ed;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.btn-success {
+  background: #2f7d65;
+  border: none;
+}
