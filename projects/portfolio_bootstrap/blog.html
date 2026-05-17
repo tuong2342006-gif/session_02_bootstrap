@@ -1,47 +1,142 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Blog</title>
+
+  <!-- Bootstrap -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"
   >
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/custom-theme.css">
+  <link rel="stylesheet" href="./css/blog.css">
+
 </head>
 
 <body>
 
-<section class="py-5">
+  <section class="py-5">
 
-  <div class="container">
+    <div class="container">
 
-    <div class="row g-4">
+      <div class="row g-4">
 
-      <div class="col-lg-8">
+        <!-- BLOG CONTENT -->
+        <div class="col-lg-8">
 
-        <div class="card mb-4">
+          <!-- CARD 1 -->
+          <div class="card mb-4">
 
-          <img
-            src="./images/project-1.jpg"
-            class="card-img-top"
-            alt=""
-          >
+            <img
+              src="./images/project-1.jpg"
+              class="card-img-top"
+              alt=""
+            >
 
-          <div class="card-body">
+            <div class="card-body">
 
-            <h3 class="card-title">
-              Bootstrap Portfolio Design
-            </h3>
+              <h3 class="card-title">
+                Bootstrap Portfolio Design
+              </h3>
 
-            <p class="card-text">
-              Learn Bootstrap responsive layout.
-            </p>
+              <p class="card-text">
+                Learn Bootstrap responsive layout.
+              </p>
 
-            <button class="btn btn-success">
-              Read More
-            </button>
+              <button class="btn btn-success">
+                Read More
+              </button>
+
+            </div>
+
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="card mb-4">
+
+            <img
+              src="./images/project-2.jpg"
+              class="card-img-top"
+              alt=""
+            >
+
+            <div class="card-body">
+
+              <h3 class="card-title">
+                Responsive Web Design
+              </h3>
+
+              <p class="card-text">
+                Build modern layouts using Bootstrap grid system.
+              </p>
+
+              <button class="btn btn-success">
+                Read More
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="col-lg-4">
+
+          <div class="sticky-top pt-4">
+
+            <!-- ABOUT -->
+            <div class="card mb-4">
+
+              <div class="card-body">
+
+                <h4>
+                  About Me
+                </h4>
+
+                <p>
+                  Frontend developer and UI designer passionate
+                  about responsive web design.
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- RECENT POSTS -->
+            <div class="card">
+
+              <div class="card-body">
+
+                <h5 class="mb-3">
+                  Recent Posts
+                </h5>
+
+                <ul class="list-group">
+
+                  <li class="list-group-item">
+                    Bootstrap Grid Tips
+                  </li>
+
+                  <li class="list-group-item">
+                    Portfolio UI Ideas
+                  </li>
+
+                  <li class="list-group-item">
+                    Responsive Design
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
 
           </div>
 
@@ -51,9 +146,12 @@
 
     </div>
 
-  </div>
+  </section>
 
-</section>
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
 
 </body>
 </html>
